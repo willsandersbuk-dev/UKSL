@@ -1,5 +1,5 @@
 import { SlashCommandBuilder, EmbedBuilder } from "discord.js";
-import { botConfig } from "../../config/botConfig.js";
+import { botConfig } from "../../config/bot.js";
 
 export const data = new SlashCommandBuilder()
   .setName("sessionstart")
