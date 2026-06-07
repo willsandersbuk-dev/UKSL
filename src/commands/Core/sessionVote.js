@@ -6,7 +6,7 @@ import {
   ButtonStyle,
   ComponentType,
 } from "discord.js";
-import { botConfig } from "../../config/botConfig.js";
+import { botConfig } from "../../config/bot.js";
 
 // Tracks active votes per guild to prevent duplicates
 const activeVotes = new Map();
